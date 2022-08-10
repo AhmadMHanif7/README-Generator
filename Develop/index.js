@@ -42,7 +42,7 @@ const questions = [
         console.log('Please enter a valid installation instructions for your project');
         return false;
     }
-}
+    }
     },
     {
     type:'input',
@@ -55,7 +55,7 @@ const questions = [
         console.log('Please enter a valid use for your project');
         return false;
     }
-}
+    }
     },
     {
     type:'input',
@@ -68,7 +68,7 @@ const questions = [
         console.log('Please enter a valid contribution guidelines for your project');
         return false;
     }
-}
+    }
     },
     {
     type:'input',
@@ -81,7 +81,41 @@ const questions = [
         console.log('Please enter a valid test instructions for your project');
         return false;
     }
-}  
+    }
+    },
+    {
+        type: 'checkbox',
+        name: 'license',
+        message: 'Did you use a licenses for this project?',
+        choices: ['NONE','GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 
+                'Apache License 2.0', 'MIT', 'Boost Software License 1.0', 'Unilicensed'],
+        default: 'none'
+    },
+    {
+    type:'input',
+    name: 'github',
+    message: 'Please enter your GitHub Username:',
+    validate: nameInput => {
+    if (nameInput) {
+        return true;
+    } else {
+        console.log('Please enter a valid GitHub Username');
+        return false;
+    }
+    }
+    },
+    {
+    type:'input',
+    name: 'email',
+    message: 'Please enter your Email:',
+    validate: nameInput => {
+    if (nameInput) {
+        return true;
+    } else {
+        console.log('Please enter a valid Email');
+        return false;
+    }
+    }
     }
 ];
 

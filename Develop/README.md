@@ -1,67 +1,79 @@
-# Taskinator
+# Hanif
 
+  [object Map],[object Map]
+
+  <br />
+  <br />
 
   ## Description 
 
-  To-Do List for Tasks for the day
+  A
 
 
-
+  <br />
+  <br />
+  <br />
 
   ## Table of Content
 
-  -[Installation](#installation-instructions)
+  [Installation](#installation-instructions)
 
-  -[Usage Information](#usage-information)
+  [Usage Information](#usage-information)
 
-  -[Contribution Guidelines](#contribution-guidelines)
+  [Contribution Guidelines](#contribution-guidelines)
 
-  -[Test Instructions](#test-instructions)
+  [Test Instructions](#test-instructions)
 
-  -[License](#license)
+  [License](#license)
 
-  -[Questions](#questions)
+  [Questions](#questions)
 
-
+  <br />
+  <br />
+  <br />
   
-
   ## Installation
 
-  Github Fork
+  A
 
-
-
+  <br />
+  <br />
+  <br />
 
   ## Usage Information
 
-  UI on the DOM  
+  A  
 
-
-
+  <br />
+  <br />
+  <br />
 
   ## Contribution Guidelines
 
-  Fork and then merge
+  A
 
-
-
-
+  <br />
+  <br />
+  <br />
+  
   ## Test Instructions
 
-  No tests so far
+  A
 
-
-
-
+  <br />
+  <br />
+  <br />
+ 
   ## License
 
-  Liscenses go here
+  GNU GPLv3<br />,Mozilla Public License 2.0<br />
 
-
-
+  <br />
+  <br />
+  <br />
 
   ## Questions
   
-  Github Repository: 
+  Github Profile: https://github.com/A
 
-  For further question reach me at: 
+  For further question you can email me at: A
