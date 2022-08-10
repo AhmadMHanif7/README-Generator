@@ -1,6 +1,6 @@
-# Hanif
+# Ill
 
-  [object Map],[object Map]
+  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0),[![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
 
   <br />
   <br />
@@ -66,7 +66,7 @@
  
   ## License
 
-  GNU GPLv3<br />,Mozilla Public License 2.0<br />
+  GNU GPLv3<br />,GNU LGPLv3<br />
 
   <br />
   <br />
