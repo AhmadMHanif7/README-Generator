@@ -126,7 +126,7 @@ inquirer.prompt(questions).then(data => writeToFile('README.md',data));
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, generateMarkdown(data) , err =>
-        err ? console.log(err) : console.log(data))
+        err ? console.log(err) : console.log('READMEFILE has be successfully generated'))
     };
 
 // TODO: Create a function to initialize app
@@ -134,8 +134,3 @@ function init() {}
 
 // Function call to initialize app
 init();
-
-
-
-
-// JSON.stringify(data, null, '\t')
