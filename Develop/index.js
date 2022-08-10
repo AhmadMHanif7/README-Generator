@@ -20,7 +20,7 @@ const questions = [
     },
     {
     type:'input',
-    name: 'Project Description',
+    name: 'description',
     message: 'Enter Project Description:',
     validate: nameInput => {
     if (nameInput) {
@@ -33,7 +33,7 @@ const questions = [
     },
     {
     type:'input',
-    name: 'Installation Instructions',
+    name: 'installationInstructions',
     message: 'Enter Installation Instructions for the Project:',
     validate: nameInput => {
     if (nameInput) {
@@ -46,7 +46,7 @@ const questions = [
     },
     {
     type:'input',
-    name: 'Usage Information',
+    name: 'usageInformation',
     message: 'How is this Project used?',
     validate: nameInput => {
     if (nameInput) {
@@ -59,7 +59,7 @@ const questions = [
     },
     {
     type:'input',
-    name: 'Contribution Guidelines',
+    name: 'contributionGuidelines',
     message: 'How can further contribution be made to this applications?',
     validate: nameInput => {
     if (nameInput) {
@@ -72,7 +72,7 @@ const questions = [
     },
     {
     type:'input',
-    name: 'Test Instructions',
+    name: 'testInstructions',
     message: 'Please insert the test instructions for this project?',
     validate: nameInput => {
     if (nameInput) {
@@ -91,7 +91,7 @@ inquirer.prompt(questions).then(data => writeToFile('README.md',data));
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName, JSON.stringify(data, null, '\t') , err =>
+    fs.writeFile(fileName, generateMarkdown(data) , err =>
         err ? console.log(err) : console.log(data))
     };
 
@@ -100,3 +100,8 @@ function init() {}
 
 // Function call to initialize app
 init();
+
+
+
+
+// JSON.stringify(data, null, '\t')
